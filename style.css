@@ -23,9 +23,6 @@ h2 {
   line-height: 40px;  
   margin: 0px;
 }
-p {
-  margin: 20px;
-}
 
 a {
   color: white;
@@ -62,15 +59,19 @@ a:hover {
   border-radius: 50%;
 }
 
-.card-white {
-  background: white;
-  padding: 30px;
-  border: 1px solid lightgrey;
-}
-
 .social-link {
   font-size: 40px;
   padding: 20px;
+}
+
+.details {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16;
+  font-weight: 300;
+  line-height: 10px;
+  margin: 20px;
+  text-align: left;
+  color: rgb(70, 70, 70);
 }
 
 .social-link > a {
